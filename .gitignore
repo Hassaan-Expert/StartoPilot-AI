@@ -17,3 +17,17 @@ venv/
 # Ignore data or user-generated files
 data/
 exports/
+
+__pycache__/
+*.pyc
+*.pdf
+*.env
+.env
+.DS_Store
+*.sqlite3
+*.db
+.vscode/
+.idea/
+*.log
+exports/
+data/
