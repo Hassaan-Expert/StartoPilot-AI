@@ -1,0 +1,30 @@
+# --- Streamlit for UI ---
+streamlit
+
+# --- Core LangChain Packages ---
+langchain
+langchain-groq
+langchain-community
+langchain-openai
+
+# --- Vector Store & RAG ---
+chromadb
+sentence-transformers
+tiktoken
+
+# --- PDF Reading and Text Extraction ---
+pypdf
+pdfminer.six
+
+# --- PDF Writing (Export Plan to PDF) ---
+fpdf
+
+# --- Data Manipulation & Parsing ---
+pandas
+numpy
+
+# --- Environment Variable Handling ---
+python-dotenv
+
+# --- Optional (used for Hugging Face, image/PDF previews) ---
+pillow

@@ -1,0 +1,9 @@
+[theme]
+base = "light"
+
+[server]
+enableCORS = false
+
+[client]
+showErrorDetails = true
+toolbarMode = "minimal"
