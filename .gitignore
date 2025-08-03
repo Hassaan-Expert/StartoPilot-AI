@@ -15,11 +15,7 @@ env/
 chroma_store/
 chroma_store/*
 
-# App files if placed in frontend
-frontend/app.py
-
 # Streamlit, VSCode, system
-.streamlit/
 .vscode/
 .DS_Store
 Thumbs.db
