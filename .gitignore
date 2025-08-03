@@ -1,33 +1,29 @@
-# Ignore Python compiled files
+# Python files
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Ignore system files
+# Virtual envs
+.env/
+venv/
+env/
+
+# Env secrets
+.env
+*.env
+
+# Chroma store (or any vector DB folder)
+chroma_store/
+chroma_store/*
+
+# App files if placed in frontend
+frontend/app.py
+
+# Streamlit, VSCode, system
+.streamlit/
+.vscode/
 .DS_Store
 Thumbs.db
 
-# Ignore virtual environments
-venv/
-.env/
-
-# Ignore cache folders
-.cache/
-*.log
-
-# Ignore data or user-generated files
-data/
+# Exported files
 exports/
-
-__pycache__/
-*.pyc
-*.pdf
-*.env
-.env
-.DS_Store
-*.sqlite3
-*.db
-.vscode/
-.idea/
-*.log
-exports/
-data/
+uploads/
